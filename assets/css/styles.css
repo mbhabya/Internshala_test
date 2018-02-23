@@ -1,0 +1,30 @@
+.btn:not(:disabled):not(.disabled) {
+  border-radius:50%;
+  border-color:rgba(255,255,255,0);
+}
+
+.btn:focus {
+  color:#A8001C;
+}
+
+.fa.fa-search.float-right {
+  text-align:center;
+  margin:0 auto;
+  padding-top:15px;
+  padding-right:25px;
+}
+
+.d-inline-block {
+  padding-top:10px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  border-radius:5px;
+}
+
+@media (min-width: 850px) {
+  body {
+	margin: 0 auto;
+  }
+}
+
